@@ -17,3 +17,10 @@ if __name__ == '__main__':
     # nextday = today + timedelta(days=1)
     print(yesterday)
     print(nextday)
+
+    # # 时间字符串转时间戳
+    # import time
+    # today = "2022-08-12 08:08:08"
+    # timearray = time.strptime(today, "%Y-%m-%d %H:%M:%S")
+    # timeStamp = int(time.mktime(timearray))
+    # print(timeStamp)
